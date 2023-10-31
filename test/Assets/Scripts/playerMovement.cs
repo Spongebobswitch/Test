@@ -4,10 +4,20 @@ using UnityEngine;
 
 public class playerMovement : MonoBehaviour
 {
-    public float speed;
-    
+
+    private Vector3 moveDirection;
+    private int speed = 10;
     // Start is called before the first frame update
-    
+   
+    public void jump()
+    {
+
+    }
+    public void Move()
+    {
+       
+    }
+
 
     // Update is called once per frame
     void Update()
@@ -15,8 +25,5 @@ public class playerMovement : MonoBehaviour
         //the player controller is done
         print("the player controller is complete YAY");
     }
-    private void Move()
-    {
-        
-    }
+    
 }
